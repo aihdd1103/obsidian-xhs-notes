@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Local plugin/cache noise
+.obsidian/plugins/*/data.json
+.trash/
+
+# Temporary files
+*.tmp
+*.log
+*~

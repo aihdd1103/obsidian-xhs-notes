@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "小红书浏览器采集收件箱",
+  "version": "2.4.0",
+  "description": "把当前网页可见图片保存到手动选择的 Obsidian 收件箱文件夹。",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "小红书采集",
+    "default_popup": "popup.html"
+  }
+}

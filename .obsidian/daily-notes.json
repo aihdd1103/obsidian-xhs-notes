@@ -1,0 +1,5 @@
+{
+  "format": "YYYY-MM-DD",
+  "folder": "Daily",
+  "template": "80 Templates/日记模板.md"
+}
